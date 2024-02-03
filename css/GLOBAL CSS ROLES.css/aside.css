@@ -1,0 +1,59 @@
+aside {
+    background: url(/image/banner-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    1text-transform: capitalize;
+    padding: 100px;
+  }
+  
+  aside div {
+    width: 400px;
+    text-align: center;
+  }
+  
+  aside div h1 span {
+    color: orange;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 640px) {
+    aside {
+      background-size: 10 100%;
+      padding: 60px 20px;
+    }
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 640px) {
+    aside {
+      background-size: 100% 100%;
+      padding: 60px 60px ;
+    }
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    aside {
+      background-size: 100% 100%;
+      padding: 70px;
+    }
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1024px) {
+    aside {
+      background-size: 100% 100%;
+      padding: 80px;
+    }
+  }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1280px) {
+    aside {
+      background-size: 100% 100%;
+      padding:100px;
+  }
+  }
+  section i {
+    color: black;
+  }
+  

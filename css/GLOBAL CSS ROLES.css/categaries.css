@@ -1,0 +1,100 @@
+div.f3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+}
+
+
+
+div.organic h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#clip3 {
+    width: 160px;
+}
+
+.card3 {
+    height: 280px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card3 div {
+    height: 270px;
+    width: 240px;
+    border: 1px rgb(214, 212, 212) solid;
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.card3:hover {
+    height: 270px;
+    width: 240px;
+    padding: 0;
+}
+
+.card3>div:hover {
+    border: 7px gray solid;
+
+}
+
+.card3 div img {
+    width: 150px;
+}
+
+.card3 div h2 {
+    margin: 10px 0;
+}
+
+.card3 div p {
+    font-weight: 400;
+    margin: 0px 0 10px;
+}
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+
+    div.features h1 {
+        margin: 10px 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    div.features h1 {
+        margin: 20px 0;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {}

@@ -1,0 +1,102 @@
+div.f4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+div.organic h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#clip4 {
+    width: 100px;
+}
+
+.card4 {
+    height: 330px;
+    width: 270px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card4>div {
+    height: 320px;
+    width: 260px;
+    border: 1px rgb(214, 212, 212) solid;
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.card4:hover {
+    height: 320px;
+    width: 260px;
+    padding: 0;
+}
+
+.card4>div:hover {
+    border: 7px gray solid;
+
+}
+
+.card4 div img {
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+.card4 div h2 {
+    margin: 10px 0;
+}
+
+.card4 div p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 10px 10px;
+}
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+
+    div.features h1 {
+        margin: 10px 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    div.features h1 {
+        margin: 20px 0;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {}

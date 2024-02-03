@@ -1,0 +1,12 @@
+.creator {
+    margin: 0 50px;
+}
+
+.creator h3 {
+    text-align: center;
+    text-transform: capitalize;
+
+    & span {
+        color: orange;
+    }
+}

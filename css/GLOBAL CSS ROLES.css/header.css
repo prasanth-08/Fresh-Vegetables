@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div h1 span {
+    color: orange;
+}
+
+header div h1 span i {
+    color: orange;
+}
+
+header div h1 {
+    color: blue;
+}
+
+header ul {
+    display: none;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    gap: 25px;
+}
+
+header ul li {
+    list-style: none;
+    transition: all 0.1s ease-in-out;
+}
+
+header ul li:hover {
+    color: orange;
+}
+
+header section i {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 17px;
+    color: rgb(17, 15, 65);
+    transition: all 0.1s ease-in-out;
+    
+}
+
+header section i:hover {
+    background-color: orange;
+}
+
+header section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {
+    header section i {
+        padding: 15px 12px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header ul {
+        display: flex;
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {}
